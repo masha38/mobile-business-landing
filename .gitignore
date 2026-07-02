@@ -1,0 +1,10 @@
+# Internal source materials are not part of the public sample site.
+*.jpg
+*.jpeg
+*.png
+*.pdf
+
+# Local/editor files
+.DS_Store
+Thumbs.db
+.vscode/

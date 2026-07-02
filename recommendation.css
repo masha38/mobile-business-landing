@@ -1,0 +1,19 @@
+.fit{padding:0 max(3vw,16px)}
+.recommend-inner{max-width:1320px!important;grid-template-columns:.78fr 1.22fr!important;gap:72px!important;padding:82px 76px!important;border-radius:30px!important;background:linear-gradient(130deg,#315cf5 0%,#1839ad 75%)!important;box-shadow:0 30px 80px #1d46cf2e}
+.recommend-copy>p{margin:0 0 20px!important;color:#d4dcff!important;font-size:18px!important;font-weight:800!important}
+.recommend-copy h2{margin:0!important;color:#fff;font-size:52px!important;line-height:1.25!important;letter-spacing:-3px!important}
+.recommend-copy h2 em{color:var(--lime)!important}
+.beginner-note{margin-top:38px;padding:24px 25px;border:2px solid #c9ff4a75;border-radius:16px;background:#071b6a38}
+.beginner-note b,.beginner-note span{display:block}
+.beginner-note b{display:flex;align-items:center;color:#fff;font-size:19px;line-height:1.5}
+.beginner-note b:before{content:'✓';flex:0 0 34px;display:grid;place-items:center;width:34px;height:34px;margin-right:12px;border-radius:50%;background:var(--lime);color:#17300a;font-size:18px}
+.beginner-note span{padding-left:46px;margin-top:9px;color:#d1d9ff;font-size:15px;line-height:1.7}
+.recommend-list ul{display:grid!important;grid-template-columns:1fr 1fr;gap:14px!important;margin:0!important;padding:0!important}
+.recommend-list li{display:grid!important;grid-template-columns:44px 1fr;align-items:center;gap:14px;min-height:112px;padding:22px 20px!important;border:1px solid #ffffff38!important;border-radius:16px;background:#ffffff12;font-size:19px!important;font-weight:700;line-height:1.55!important;box-shadow:inset 0 1px #ffffff16;transition:.2s}
+.recommend-list li:hover{background:#ffffff1c;transform:translateY(-2px)}
+.recommend-list li b{display:grid;place-items:center;width:42px;height:42px;border-radius:50%;background:var(--lime);color:#17300a!important;font:900 13px Manrope!important}
+.recommend-list li span{color:#fff!important}
+.recommend-list li br{display:none}
+.goal-notice{margin:20px 4px 0!important;color:#c5cefa!important;font-size:12px!important;line-height:1.7!important}
+@media(max-width:1080px){.recommend-inner{grid-template-columns:1fr!important;gap:42px!important;padding:60px 46px!important}.recommend-copy h2{font-size:46px!important}.beginner-note{max-width:680px}}
+@media(max-width:700px){.recommend-inner{padding:44px 22px!important;border-radius:22px!important}.recommend-copy>p{font-size:16px!important}.recommend-copy h2{font-size:37px!important;letter-spacing:-2px!important}.recommend-list ul{grid-template-columns:1fr}.recommend-list li{min-height:88px;font-size:17px!important;padding:18px!important}.beginner-note{padding:19px}.beginner-note b{font-size:16px}.beginner-note span{font-size:13px;padding-left:0}.goal-notice{font-size:11px!important}}

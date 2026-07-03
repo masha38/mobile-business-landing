@@ -1,4 +1,4 @@
 .quick-consult form{grid-template-columns:220px minmax(380px,1fr) auto 175px 125px}
-.quick-title{font-size:18px}.quick-fields input{font-size:16px}.quick-agree{font-size:14px}.quick-submit,.quick-kakao{font-size:15px}
+.quick-title{font-size:18px}.quick-fields input{font-size:16px}.quick-agree{font-size:14px}.quick-submit,.quick-kakao{font-size:15px}.quick-submit{background:#315cf5;color:#fff;box-shadow:0 6px 18px #315cf54d}
 @media(max-width:1100px){.quick-consult form{grid-template-columns:105px 1fr auto 155px 120px}.quick-title{font-size:16px}}
 @media(max-width:720px){.quick-consult form{grid-template-columns:1.15fr .85fr}.quick-submit,.quick-kakao{font-size:14px}}

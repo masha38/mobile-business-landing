@@ -1,0 +1,11 @@
+body{font-size:17px}
+.hero-sub{font-size:20px}.microcopy{font-size:14px}
+.section-head>p:last-child{font-size:19px}
+.pain-card h3,.benefit-list h3,.step-grid h3{font-size:23px}
+.pain-card p,.benefit-list p,.step-grid p,.opportunity-copy>p:not(.eyebrow):not(.notice){font-size:16px}
+.notice{font-size:14px}
+.fit-inner li{font-size:17px}
+summary{font-size:20px}details p{font-size:16px}
+.lead-form>p{font-size:16px}.lead-form label:not(.agree){font-size:15px}.lead-form input[type=text],.lead-form input[type=tel],.lead-form select{font-size:16px}.agree{font-size:13px}
+footer{font-size:14px}
+@media(max-width:700px){body{font-size:16px}.hero-sub{font-size:17px}.section-head>p:last-child{font-size:17px}.pain-card h3,.benefit-list h3,.step-grid h3{font-size:21px}summary{font-size:18px}}

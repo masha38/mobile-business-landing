@@ -9,7 +9,7 @@ const revealObserver = new IntersectionObserver((entries) => {
 
 document.querySelectorAll('.reveal').forEach((element) => revealObserver.observe(element));
 
-const GOOGLE_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbxj6tdTrTUA5vLrylR1SGyaiW3TFYQNacCyFZMkoeL4nU9pRJz8dQpwUQR9zkeq9KAX/exec';
+const GOOGLE_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbz7nlZsMUFj4FGuwxyfvp_VIDkdAD2oZ4JatbNe1ZgUpLC4UaAmR3d6cmRfsYG29ErT0w/exec';
 
 const leadForm = document.querySelector('#leadForm');
 const phoneInput = leadForm.querySelector('input[name="phone"]');
